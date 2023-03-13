@@ -1,0 +1,68 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(15, 74, 81);
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn:active{
+    background-color: rgb(0, 0, 0);
+}
+
+    .nav-link{
+    text-decoration: none;
+}
+
+.card{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 2px 2px  4px #000;
+}
+.image{
+    width: 200px;   
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.title{
+    font-size: 30px;
+    color: rgb(15, 74, 81);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.price-rate{
+    font-size: 20px;
+    border:  none;
+    border-radius: 0;
+    outline: none;
+
+}
+
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-decoration: none;
+} */
