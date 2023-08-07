@@ -1,0 +1,47 @@
+.bodyOverride {
+  display: none;
+}
+
+.home-page {
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../images/home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  max-width: 50rem;
+}
+
+h3 {
+  font-size: 6rem;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #000000;
+  padding: 0;
+  line-height: 1.5;
+}
+
+button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(15, 74, 81);
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 50px 35px;
+  cursor: pointer;
+  border: 1px solid rgb(15, 74, 81);
+  border-radius: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
